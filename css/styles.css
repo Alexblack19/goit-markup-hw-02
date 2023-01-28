@@ -1,10 +1,5 @@
-/* Fonts */
-
-
---main-font:'Roboto', sans-serif;
---secondary-font: 'Raleway', sans-serif;
-
-
-.page {
-  font-family: var(--main-font);
+:root {
+  /* Fonts */
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 }
