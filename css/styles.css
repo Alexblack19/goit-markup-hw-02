@@ -4,8 +4,19 @@
   --secondary-font: 'Raleway', sans-serif;
 
   /* Text colors */
+  --main-txt-cl: #434455;
+  --light-txt-cl: ;
+  --accent-txt-cl: ;
+  --grey-txt-cl-60: ;
+  --grey-txt-cl: ;
+  --darkgrey-txt-cl: ;
 
   /* Background colors */
-  
+
   /* Button colors */
+}
+
+.page {
+  color: var(--main-txt-cl);
+  font-family: var(--main-font);
 }
