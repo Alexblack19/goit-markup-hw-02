@@ -8,8 +8,7 @@
   --secondary-txt-cl: #2E2F42;
   --primary-logo-cl: #4D5AE5;
   --secondary-logo-cl: #2E2F42;
-  --hero-txt-cl: #FFFFFF;
-  
+  --hero-txt-cl: #FFFFFF;  
   --accent-bts-txt-cl: #FFFFFF;
   --footer-txt-cl: #E7E9FC;
 
@@ -26,16 +25,47 @@
   
   /* Buttons background colors */
   --btn-hero-bgd-cl: #4D5AE5;
+  --btns-portfolio-bgd-cl: #F4F4FD;
   --accent-btns-portfolio-bgd-cl: #404BBF;
-  
-  
 }
 
 .page {
-  font-family: var(--primary-font);
-
   color: var(--primary-txt-cl);
   background-color: var(--page-bgd-cl);
-  
-  
 }
+
+/* Header */
+
+.logo-web {
+  color: var(--primary-logo-cl);
+}
+
+.logo-studio {
+  color: var(--secondary-logo-cl);
+}
+
+.nav-link {
+  color: var(--secondary-txt-cl);
+}
+
+.address-item {
+  color: var(--primary-txt-cl);
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--header-bgd-cl);
+}
+
+.hero-title {
+  color: var(--hero-txt-cl);
+}
+
+.hero-btn {
+  color: var(--btn-hero-txt-cl);
+  background-color: var(--btn-hero-bgd-cl);
+}
+
+/* Feature */
+
