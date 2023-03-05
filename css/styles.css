@@ -1,22 +1,41 @@
 :root {
   /* Fonts */
-  --main-font: 'Roboto', sans-serif;
+  --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
 
   /* Text colors */
-  --main-txt-cl: #434455;
-  --light-txt-cl: ;
-  --accent-txt-cl: ;
-  --grey-txt-cl-60: ;
-  --grey-txt-cl: ;
-  --darkgrey-txt-cl: ;
+  --primary-txt-cl: #434455;
+  --secondary-txt-cl: #2E2F42;
+  --primary-logo-cl: #4D5AE5;
+  --secondary-logo-cl: #2E2F42;
+  --hero-txt-cl: #FFFFFF;
+  
+  --accent-bts-txt-cl: #FFFFFF;
+  --footer-txt-cl: #E7E9FC;
 
   /* Background colors */
+  --page-bgd-cl: #FFFFFF;  
+  --header-bgd-cl: #2E2F42;
+  --team-bgd-cl: #F4F4FD;
+  --footer-bgd-cl: #2E2F42;
 
-  /* Button colors */
+  /* Buttons text colors */
+  --btn-hero-txt-cl: #FFFFFF; 
+  --btns-portfolio-txt-cl: #4D5AE5;
+  --accent-btns-portfolio-txt-cl: #FFFFFF;
+  
+  /* Buttons background colors */
+  --btn-hero-bgd-cl: #4D5AE5;
+  --accent-btns-portfolio-bgd-cl: #404BBF;
+  
+  
 }
 
 .page {
-  color: var(--main-txt-cl);
-  font-family: var(--main-font);
+  font-family: var(--primary-font);
+
+  color: var(--primary-txt-cl);
+  background-color: var(--page-bgd-cl);
+  
+  
 }
