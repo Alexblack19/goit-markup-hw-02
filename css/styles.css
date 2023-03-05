@@ -58,7 +58,8 @@
   color: var(--secondary-txt-cl);
 }
 
-.address-list .link {
+.mail-link,
+.tel-link {
   color: currentColor;
 }
 
