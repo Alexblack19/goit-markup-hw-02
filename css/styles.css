@@ -3,14 +3,16 @@
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
 
+  /* Logo txt colors */
+  --primary-logo-cl: #4D5AE5;
+  --secondary-logo-cl: #2E2F42;
+
   /* Text colors */
   --primary-txt-cl: #434455;
   --secondary-txt-cl: #2E2F42;
-  --primary-logo-cl: #4D5AE5;
-  --secondary-logo-cl: #2E2F42;
   --hero-txt-cl: #FFFFFF;  
   --accent-bts-txt-cl: #FFFFFF;
-  --footer-txt-cl: #E7E9FC;
+  --footer-txt-cl: #E7E9FC;  
 
   /* Background colors */
   --page-bgd-cl: #FFFFFF;  
