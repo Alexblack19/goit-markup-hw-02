@@ -6,13 +6,14 @@
   /* Logo txt colors */
   --primary-logo-cl: #4D5AE5;
   --secondary-logo-cl: #2E2F42;
+  --footer-studio-cl: #F4F4FD;
 
   /* Text colors */
   --primary-txt-cl: #434455;
   --secondary-txt-cl: #2E2F42;
-  --hero-txt-cl: #FFFFFF;  
-  --accent-bts-txt-cl: #FFFFFF;
-  --footer-txt-cl: #E7E9FC;  
+  --hero-txt-cl: #FFFFFF;    
+  --footer-txt-cl: #F4F4FD;
+  --accent-link-txt-cl: #404BBF;  
 
   /* Background colors */
   --page-bgd-cl: #FFFFFF;  
@@ -21,14 +22,14 @@
   --footer-bgd-cl: #2E2F42;
 
   /* Buttons text colors */
-  --btn-hero-txt-cl: #FFFFFF; 
+  --btn-hero-txt-cl: #FFFFFF;   
   --btns-portfolio-txt-cl: #4D5AE5;
-  --accent-btns-portfolio-txt-cl: #FFFFFF;
+  --accent-btns-portfolio-txt-cl: #FFFFFF; 
   
   /* Buttons background colors */
-  --btn-hero-bgd-cl: #4D5AE5;
+  --btn-hero-bgd-cl: #4D5AE5;  
   --btns-portfolio-bgd-cl: #F4F4FD;
-  --accent-btns-portfolio-bgd-cl: #404BBF;
+  --accent-btns-bgd-cl: #404BBF;
 }
 
 .page {
@@ -48,11 +49,11 @@
 
 /* Header */
 
-.logo-web {
+.header-logo-web {
   color: var(--primary-logo-cl);
 }
 
-.logo-studio {
+.header-logo-studio {
   color: var(--secondary-logo-cl);
 }
 
@@ -63,6 +64,13 @@
 .mail-link,
 .tel-link {
   color: currentColor;  
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus,
+.address-list .link:hover,
+.address-list .link:focus {
+  color: var(--accent-link-txt-cl);  
 }
 
 /* Hero */
@@ -78,9 +86,13 @@
 .hero-btn {
   color: var(--btn-hero-txt-cl);
   background-color: var(--btn-hero-bgd-cl);
+  cursor: pointer;
 }
 
-
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--accent-btns-bgd-cl);
+}
 
 /* Feature */
 
@@ -94,3 +106,53 @@
 
 /* What are we doing */
 
+.works-title {
+  color: var(--secondary-txt-cl);
+}
+
+/* Our team */
+
+.team-title,
+.team-subtitle {
+  color: var(--secondary-txt-cl);
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--footer-bgd-cl);
+}
+
+.footer-logo-web {
+  color: var(--primary-logo-cl);
+}
+
+.footer-logo-studio {
+  color: var(--footer-studio-cl);
+}
+
+.footer-text {
+  color: var(--footer-txt-cl);
+}
+
+/* Portfolio cards */
+
+.portfolio-title {
+  display: none;
+}
+
+.portfolio-btn {
+  color: var(--btns-portfolio-txt-cl);
+  background-color: var(--btns-portfolio-bgd-cl);
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--accent-btns-portfolio-txt-cl);
+  background-color: var(--accent-btns-bgd-cl);
+}
+
+.portfolio-subtitle {
+  color: var(--secondary-txt-cl);
+}
