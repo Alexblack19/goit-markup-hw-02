@@ -30,9 +30,15 @@
   --btn-hero-bgd-cl: #4D5AE5;  
   --btns-portfolio-bgd-cl: #F4F4FD;
   --accent-btns-bgd-cl: #404BBF;
+  
+  /* Buttons border color */
+  --border-btns-cl: #E7E9FC;
 }
 
 .page {
+  font-family: var(--primary-font);
+  letter-spacing: 0.02em;
+
   color: var(--primary-txt-cl);  
   background-color: var(--page-bgd-cl);
 }
@@ -57,12 +63,30 @@
   color: var(--secondary-logo-cl);
 }
 
+.header-logo-web,
+.header-logo-studio {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+}
+
 .nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+
   color: var(--secondary-txt-cl);
 }
 
 .mail-link,
 .tel-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+
   color: currentColor;  
 }
 
@@ -79,13 +103,22 @@
   background-color: var(--header-bgd-cl);
 }
 
-.hero-title {
+.hero-title {  
+  font-size: 56px;
+  line-height: calc(60 / 56);
+
   color: var(--hero-txt-cl);
 }
 
 .hero-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+
   color: var(--btn-hero-txt-cl);
   background-color: var(--btn-hero-bgd-cl);
+
   cursor: pointer;
 }
 
@@ -96,17 +129,32 @@
 
 /* Feature */
 
-.feature-title {
+.feature-title {  
+  font-size: 36px;
+  line-height: calc(40 / 36);
+
   display: none;
 }
 
 .feature-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+
   color: var(--secondary-txt-cl);
+}
+
+.feature-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);  
 }
 
 /* What are we doing */
 
 .works-title {
+  font-size: 36px;
+  line-height: calc(40 / 36);
+
   color: var(--secondary-txt-cl);
 }
 
@@ -117,6 +165,22 @@
   color: var(--secondary-txt-cl);
 }
 
+.team-title {
+  font-size: 36px;
+  line-height: calc(40 / 36);
+}
+
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+}
+
 /* Footer */
 
 .footer {
@@ -124,22 +188,59 @@
 }
 
 .footer-logo-web {
+  font-family: var(--secondary-font);  
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+
   color: var(--primary-logo-cl);
 }
 
 .footer-logo-studio {
+  font-family: var(--secondary-font);  
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+
   color: var(--footer-studio-cl);
 }
 
 .footer-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+
   color: var(--footer-txt-cl);
 }
 
 /* Portfolio cards */
 
 .portfolio-title {
+
+
+
+
   display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .portfolio-btn {
   color: var(--btns-portfolio-txt-cl);
