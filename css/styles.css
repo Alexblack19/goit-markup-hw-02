@@ -82,9 +82,12 @@
   color: var(--secondary-txt-cl);
 }
 
-.mail-link,
-.tel-link {
+.address {
   font-style: normal;
+}
+
+.mail-link,
+.tel-link {  
   font-weight: 400;
   font-size: 16px;
   line-height: calc(24 / 16);
