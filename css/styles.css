@@ -29,10 +29,7 @@
   /* Buttons background colors */
   --btn-hero-bgd-cl: #4D5AE5;  
   --btns-portfolio-bgd-cl: #F4F4FD;
-  --accent-btns-bgd-cl: #404BBF;
-  
-  /* Buttons border color */
-  --border-btns-cl: #E7E9FC;
+  --accent-btns-bgd-cl: #404BBF;  
 }
 
 .page {
@@ -44,6 +41,10 @@
 }
 
 /* Reset */
+
+.hidden {
+  display: none;
+}
 
 .link {
   text-decoration: none;
@@ -111,6 +112,7 @@
 }
 
 .hero-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
@@ -120,6 +122,8 @@
   background-color: var(--btn-hero-bgd-cl);
 
   cursor: pointer;
+
+  border: 0px;  
 }
 
 .hero-btn:hover,
@@ -133,7 +137,7 @@
   font-size: 36px;
   line-height: calc(40 / 36);
 
-  display: none;
+  color: var(--secondary-txt-cl);
 }
 
 .feature-subtitle {
@@ -160,20 +164,19 @@
 
 /* Our team */
 
-.team-title,
-.team-subtitle {
-  color: var(--secondary-txt-cl);
-}
-
 .team-title {
   font-size: 36px;
   line-height: calc(40 / 36);
+
+  color: var(--secondary-txt-cl)
 }
 
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: calc(24 / 20);
+
+  color: var(--secondary-txt-cl)
 }
 
 .team-text {
@@ -217,35 +220,25 @@
 /* Portfolio cards */
 
 .portfolio-title {
+  font-size: 36px;
+  line-height: calc(40 / 36); 
 
-
-
-
-  display: none;
+  color: var(--secondary-txt-cl);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+
   color: var(--btns-portfolio-txt-cl);
   background-color: var(--btns-portfolio-bgd-cl);
+
   cursor: pointer;
+
+  border: 0px;
 }
 
 .portfolio-btn:hover,
@@ -253,6 +246,15 @@
   color: var(--accent-btns-portfolio-txt-cl);
   background-color: var(--accent-btns-bgd-cl);
 }
+
+
+
+
+
+
+
+
+
 
 .portfolio-subtitle {
   color: var(--secondary-txt-cl);
