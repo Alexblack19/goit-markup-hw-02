@@ -56,8 +56,6 @@
 
 /* Header */
 
-/* .header-logo-web,
-.header-logo-studio  */
 .header-logo {
   font-family: var(--secondary-font);  
   font-weight: 800;
@@ -208,8 +206,7 @@
   background-color: var(--footer-bgd-cl);
 }
 
-.footer-logo-web,
-.footer-logo-studio {
+.footer-logo {
   font-family: var(--secondary-font);  
   font-weight: 800;
   font-size: 18px;
