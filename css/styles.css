@@ -113,6 +113,8 @@
   line-height: calc(60 / 56);
 
   color: var(--hero-txt-cl);
+
+  text-align: center;
 }
 
 .hero-btn {
@@ -144,6 +146,8 @@
   line-height: calc(40 / 36);
 
   color: var(--secondary-txt-cl);
+
+  text-align: center;
 }
 
 .feature-subtitle {
@@ -175,6 +179,8 @@
   line-height: calc(40 / 36);
 
   color: var(--secondary-txt-cl)
+
+  text-align: center;
 }
 
 .team-subtitle {
@@ -228,6 +234,8 @@
   line-height: calc(40 / 36); 
 
   color: var(--secondary-txt-cl);
+
+  text-align: center;
 }
 
 .portfolio-btn {
