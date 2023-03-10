@@ -225,9 +225,7 @@
   line-height: calc(21 / 18);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
 
-.footer-logo-web {
   color: var(--primary-logo-cl);
 }
 
