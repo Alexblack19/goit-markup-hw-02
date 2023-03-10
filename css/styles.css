@@ -59,8 +59,7 @@
   font-family: var(--secondary-font);  
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17; 
-  /* calc(21 / 18); */
+  line-height: calc(21 / 18);  
   letter-spacing: 0.03em;
 
   text-transform: uppercase;
@@ -108,9 +107,8 @@
 }
 
 .hero-title {
-  font-size: 56px;  
-  /* line-height: calc(60 / 56); */
-  line-height: 1.07;   
+  font-size: 56px;
+  line-height: calc(60 / 56);   
   letter-spacing: 0.02em; 
 
   color: var(--hero-txt-cl);
@@ -172,8 +170,7 @@
 
 .works-title {
   font-size: 36px;
-  /* line-height: calc(40 / 36); */
-  line-height: 1.11;
+  line-height: calc(40 / 36);
   letter-spacing: 0.02em;
 
   text-transform: capitalize;
@@ -186,8 +183,7 @@
 
 .team-title {
   font-size: 36px;
-  /* line-height: calc(40 / 36); */
-  line-height: 1.11;
+  line-height: calc(40 / 36);
   letter-spacing: 0.02em;
 
   text-transform: capitalize;
@@ -221,8 +217,7 @@
   font-family: var(--secondary-font);  
   font-weight: 800;
   font-size: 18px;
-  /* line-height: calc(21 / 18); */
-  line-height: 1.17;
+  line-height: calc(21 / 18);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
