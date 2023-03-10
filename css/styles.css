@@ -292,5 +292,5 @@
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
 
-  color: currentColor;
+  color: var(--primary-txt-cl);
 }
