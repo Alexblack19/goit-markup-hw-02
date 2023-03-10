@@ -64,15 +64,32 @@
   /* calc(21 / 18); */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
 
-.header-logo-web {
   color: var(--primary-logo-cl);
 }
 
 .header-logo-studio {
   color: var(--secondary-logo-cl);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .nav-link {  
   font-weight: 500;
