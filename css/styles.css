@@ -72,31 +72,19 @@
   color: var(--secondary-logo-cl);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .nav-link {  
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
 
   color: var(--secondary-txt-cl);
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus,
+.address-list .link:hover,
+.address-list .link:focus {
+  color: var(--accent-link-txt-cl);  
 }
 
 .address {
@@ -112,13 +100,6 @@
   color: currentColor;  
 }
 
-.nav-list .link:hover,
-.nav-list .link:focus,
-.address-list .link:hover,
-.address-list .link:focus {
-  color: var(--accent-link-txt-cl);  
-}
-
 /* Hero */
 
 .hero {
@@ -126,8 +107,11 @@
 }
 
 .hero-title {
-  font-size: 56px;
-  line-height: calc(60 / 56);
+  font-size: 56px;  
+  /* line-height: calc(60 / 56); */
+  line-height: 1.07; 
+  /* По факту letter-spacing наслідується від page */
+  letter-spacing: 0.02em; 
 
   color: var(--hero-txt-cl);
 
