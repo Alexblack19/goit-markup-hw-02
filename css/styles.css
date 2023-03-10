@@ -34,8 +34,7 @@
 
 .page {
   font-family: var(--primary-font);
-  letter-spacing: 0.02em;
-
+  
   color: var(--primary-txt-cl);  
   background-color: var(--page-bgd-cl);
 }
@@ -63,6 +62,7 @@
   line-height: 1.17; 
   /* calc(21 / 18); */
   letter-spacing: 0.03em;
+
   text-transform: uppercase;
 
   color: var(--primary-logo-cl);
@@ -109,8 +109,7 @@
 .hero-title {
   font-size: 56px;  
   /* line-height: calc(60 / 56); */
-  line-height: 1.07; 
-  /* По факту letter-spacing наслідується від page */
+  line-height: 1.07;   
   letter-spacing: 0.02em; 
 
   color: var(--hero-txt-cl);
@@ -145,6 +144,7 @@
 .feature-title {  
   font-size: 36px;
   line-height: calc(40 / 36);
+  letter-spacing: 0.02em;
 
   text-transform: capitalize;
   text-align: center;
@@ -156,13 +156,15 @@
   font-weight: 500;
   font-size: 20px;
   line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
 
   color: var(--secondary-txt-cl);
 }
 
 .feature-text {
   font-size: 16px;
-  line-height: calc(24 / 16);  
+  line-height: calc(24 / 16); 
+  letter-spacing: 0.02em; 
 }
 
 /* What are we doing */
@@ -170,6 +172,7 @@
 .works-title {
   font-size: 36px;
   line-height: calc(40 / 36);
+  letter-spacing: 0.02em;
 
   text-transform: capitalize;
   text-align: center;
@@ -182,6 +185,7 @@
 .team-title {
   font-size: 36px;
   line-height: calc(40 / 36);
+  letter-spacing: 0.02em;
 
   text-transform: capitalize;
   text-align: center;
@@ -193,6 +197,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
 
   color: var(--secondary-txt-cl)
 }
@@ -200,6 +205,7 @@
 .team-text {
   font-size: 16px;
   line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
 }
 
 /* Footer */
@@ -228,6 +234,7 @@
 .footer-text {
   font-size: 16px;
   line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
 
   color: var(--footer-txt-cl);
 }
@@ -237,6 +244,7 @@
 .portfolio-title {
   font-size: 36px;
   line-height: calc(40 / 36); 
+  letter-spacing: 0.02em;
 
   text-transform: capitalize;
   text-align: center;
@@ -270,6 +278,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
 
   color: var(--secondary-txt-cl);
 }
@@ -277,6 +286,7 @@
 .portfolio-text {  
   font-size: 16px;
   line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
 
   color: inherit;
 }
