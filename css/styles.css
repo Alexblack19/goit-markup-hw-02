@@ -181,6 +181,10 @@
 
 /* Our team */
 
+.team {
+  background-color: var(--team-bgd-cl);
+}
+
 .team-title {
   font-size: 36px;
   line-height: calc(40 / 36);
