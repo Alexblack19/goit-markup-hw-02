@@ -17,7 +17,7 @@
 
   /* Background colors */
   --page-bgd-cl: #FFFFFF;  
-  --header-bgd-cl: #2E2F42;
+  --hero-bgd-cl: #2E2F42;
   --team-bgd-cl: #F4F4FD;
   --footer-bgd-cl: #2E2F42;
 
@@ -103,7 +103,7 @@
 /* Hero */
 
 .hero {
-  background-color: var(--header-bgd-cl);
+  background-color: var(--hero-bgd-cl);
 }
 
 .hero-title {
