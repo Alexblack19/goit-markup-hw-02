@@ -39,7 +39,7 @@
   background-color: var(--page-bgd-cl);
 }
 
-/* Reset */
+/** Reset */
 
 .hidden {
   display: none;
@@ -53,7 +53,7 @@
   list-style: none;
 }
 
-/* Header */
+/** Header */
 
 .header-logo {
   font-family: var(--secondary-font);  
@@ -100,7 +100,7 @@
   color: currentColor;  
 }
 
-/* Hero */
+/** Hero */
 
 .hero {
   background-color: var(--hero-bgd-cl);
@@ -138,7 +138,7 @@
   background-color: var(--accent-btns-bgd-cl);
 }
 
-/* Feature */
+/** Feature */
 
 .feature-title {  
   font-size: 36px;
@@ -166,7 +166,7 @@
   letter-spacing: 0.02em; 
 }
 
-/* What are we doing */
+/** What are we doing */
 
 .works-title {
   font-size: 36px;
@@ -179,7 +179,7 @@
   color: var(--secondary-txt-cl);
 }
 
-/* Our team */
+/** Our team */
 
 .team {
   background-color: var(--team-bgd-cl);
@@ -211,7 +211,7 @@
   letter-spacing: 0.02em;
 }
 
-/* Footer */
+/** Footer */
 
 .footer {
   background-color: var(--footer-bgd-cl);
@@ -240,7 +240,7 @@
   color: var(--footer-txt-cl);
 }
 
-/* Portfolio cards */
+/** Portfolio */
 
 .portfolio-title {
   font-size: 36px;
